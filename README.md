@@ -1,20 +1,18 @@
 ## О проекте
 
-Template-webpack - это набор NPM модулей для разработки фронтенда. Здесь настроена работа сборщика Webpack с Pug, Sass, JavaScript, React и Markdown. Проект был создан при написании статьи [Настройка Webpack 5](https://habr.com/ru/post/701724/) и полностью соответствует коду из этой статьи.
+Тестовое задание магазина
 
 ## Быстрый запуск
-
-Чтобы использовать данный набор инструментов у вас на компьютере должен быть установлен [Node.js](https://nodejs.org/).
 
 Откройте терминал и сделайте клон проекта к себе на компьютер:
 
 ```
-git clone https://github.com/injashkin/npm-for-frontend.git new-project-name
+git clone https://github.com/jeffreeen/LoftSpaceProject.git new-project-name
 ```
 
 вместо `new-project-name` вы можете указать любое другое имя проекта
 
-Если у вас не установлен Git, то вы можете [здесь](https://github.com/injashkin/webpack-template/archive/refs/heads/master.zip) скачать ZIP архив. Распакуйте этот архив.
+Если у вас не установлен Git, то вы можете [здесь](https://github.com/jeffreeen/LoftSpaceProject/archive/refs/heads/main.zip) скачать ZIP архив. Распакуйте этот архив.
 
 В окне терминала зайдите в каталог и установите проект. Для этого выполните следующие две команды:
 
@@ -36,3 +34,11 @@ npm run serve
 ```
 npm run build
 ```
+## Исходные данные для проекта
+
+https://dune-backbone-4ca.notion.site/40188c3fad7949e6808d5dc8b120d7ea Техническое задание
+
+https://www.figma.com/file/66wzEgzYvjlb5ScMiPD86f/Nazarau_Loft-Space_SCHOOL?type=design&node-id=0%3A1&mode=design&t=1eaId1sbEdpjm30k-1 Макет
+
+Проверка для Safari https://appetize.io/
+https://live.browserstack.com/
