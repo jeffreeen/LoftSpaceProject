@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LoftSpace</title>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="maincontent">
+      <h1>interior design and furniture purchase</h1>
+      <section data-sidemenu-theme="black" data-section-id="welcome" class="welcome">
+        <div class="container welcome__container">
+          <header class="header">
+            <nav class="menu">
+              <div class="menu__wrapper">
+                <div class="menu__listleft">
+                  <li class="menu__item"><a href="#" data-scroll-to="catalog" class="menu__link">Catalog</a></li>
+                  <li class="menu__item"><a href="#" data-scroll-to="collections" class="menu__link">Collections</a></li>
+                  <li class="menu__item"><a href="#" data-scroll-to="gallery" class="menu__link">Gallery</a></li>
+                </div>
+                <div class="menu__listcenter">
+                  <a href="#" class="menu__logo">Loft Space</a>
+                </div>
+                <div class="menu__listright">
+                  <li class="menu__item"><a href="#" data-scroll-to="about" class="menu__link">About us</a></li>
+                  <li class="menu__item"><a href="#" data-scroll-to="contacts" class="menu__link">Contacts</a></li>
+                  <li class="menu__item"><a href="#" data-scroll-to="faq" class="menu__link">FAQ</a></li>
+                </div>
+              </div>
+            </nav>
+          </header>
+          <div class="welcome__maincontent">
+            <div class="welcome__title">
+              <div class="welcome__text"><p>Сreate an interior of your dream with us</p></div>
+            </div>
+            <button class="button">Shop now</button>
+          </div>
+        </div>
+      </section>
+      <section class="description">
+        <div class="container description__container">
+          <h2 class="title">Store of stylish and modern furniture</h2>
+          <div class="description__wrapper">
+            <div class="description__warapper-img">
+              <img src="<%=require('./assets/bashandchair.jpg') %>" alt="bash and chair" class="description__img">
+            </div>
+            <div class="description__content">
+              <div class="description__about">
+                <h3 class="decription__title-about">About us</h3>
+                <div class="description__text-about">
+                  <p>Loft Space is a Belarusian quality brand of tables, chairs, sun loungers and custom cabinets.</p>
+                  <p>We also ensure that Loft Space can offer bespoke craftsmanship and are always looking for improvements to expand our brand.</p>
+                  <p>We create our furniture from all kinds of materials, including Eco materials, hypoallergenic, etc.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="featproducts">
+        <div class="container featproducts__container">
+          <div class="featproducts__title-wrapper">
+            <svg class="featproducts__icon featproducts__icon--left" xmlns="http://www.w3.org/2000/svg" width="50" height="40" viewBox="0 0 50 40" fill="none">
+              <path d="M31.25 30L18.75 20L31.25 10" stroke="#0A0A0A" stroke-opacity="0.89" stroke-width="3"/>
+            </svg>
+            <h2 class="title">Our featured products</h2>
+            <svg class="featproducts__icon featproducts__icon--right" xmlns="http://www.w3.org/2000/svg" width="50" height="40" viewBox="0 0 50 40" fill="none">
+              <path d="M18.75 10L31.25 20L18.75 30" stroke="#0A0A0A" stroke-opacity="0.89" stroke-width="3"/>
+            </svg>
+          </div>
+          <div class="featproducts__content-wrapper">
+            <div class="featproduct">
+              <div class="featproduct__img">
+                <img src="" alt="img product">
+              </div>
+              <div class="featproduct__description">
+                <div class="featproduct__name"></div>
+                <div class="featproduct__price"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="featcollections">
+        <div class="container featcollections__container">
+          <div class="featcollections__title-wrapper">
+            <svg class="featproducts__icon featproducts__icon--left" xmlns="http://www.w3.org/2000/svg" width="50" height="40" viewBox="0 0 50 40" fill="none">
+              <path d="M31.25 30L18.75 20L31.25 10" stroke="#0A0A0A" stroke-opacity="0.89" stroke-width="3"/>
+            </svg>
+            <h2 class="title">Our collection</h2>
+            <svg class="featproducts__icon featproducts__icon--right" xmlns="http://www.w3.org/2000/svg" width="50" height="40" viewBox="0 0 50 40" fill="none">
+              <path d="M18.75 10L31.25 20L18.75 30" stroke="#0A0A0A" stroke-opacity="0.89" stroke-width="3"/>
+            </svg>
+          </div>
+          <div class="featcollections__content-wrapper">
+            <div class="featcollection">
+              <div class="featcollection__wrapper">
+                <div class="featcollection__name"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="galleries">
+        <div class="container galleries__container">
+          <h2 class="title">Gallery &amp; Articles</h2>
+          <div class="galleries__wrapper">
+            <div class="prodgallery">
+              <div class="prodgallery__description">
+                <div class="prodgallery__title">Check out our products in our gallery</div>
+                <button class="button">Learn more</button>
+              </div>
+              <div class="prodgallery__images"></div>
+            </div>
+            <div class="newsgallery">
+              <div class="newsgallery__images"></div>
+              <div class="newsgallery__description">
+                <div class="prodgallery__title">Read our articles for the latest news</div>
+                <button class="button">Read all</button>
+              </div>   
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="footer">
+        <div class="container footer__container">
+          <div class="footer__follow-cont">
+            <div class="footer__follow-description">Follow us to be the first to know about the latest updates:</div>
+            <form class="form" action="">
+              <div class="form__send">
+                <input type="text">
+                <button class="button">send</button>
+              </div>
+              <div class="form__checkbox">
+                <input id="agree" type="checkbox">
+                <label for="agree">I agree with the Privacy & Cookie Policy of Loft Space</label>
+              </div>
+            </form>
+          </div>
+          <div class="footer__nav-contacts-cont">
+            <div class="footer__nav-cont">
+              <div class="footer__nav-menu">
+                <div class="footer__nav-item">Collections</div>
+                <div class="footer__nav-item">Catalog</div>
+                <div class="footer__nav-item">Gallery</div>
+                <div class="footer__nav-item">Articles</div>
+              </div>
+              <div class="footer__nav-menu">
+                <div class="footer__nav-item">About us</div>
+                <div class="footer__nav-item">Contacts</div>
+                <div class="footer__nav-item">FAQ</div>
+              </div>
+              <div class="footer__nav-menu">
+                <div class="footer__nav-item">Terms </div>
+                <div class="footer__nav-item">Privacy</div>
+                <div class="footer__nav-item">Shipping &amp; Returns</div>
+              </div>
+              <div class="socials">
+                <div class="socials__item">Instagram </div>
+                <div class="socials__item">Facebook</div>
+                <div class="socials__item">Pinterest</div>
+                <div class="socials__item">YouTube</div>
+              </div>
+            </div>
+            <div class="footer__contacts-cont">
+              <img src="" alt="">
+              <address class="contacts">
+                <div class="contacts__num-mail">
+                  <a href="tel:+375291469822">+375-29 146 98 22</a>
+                  <a href="mailto:peace@example.com">peace@example.com</a>
+                </div>
+                <div class="contacts__street">
+                  <div class="contact__country">Belarus, Minsk </div>
+                  <div class="contact__street">Golden Hill str.1</div>
+                </div>
+                
+              </address>
+              <div class="logo">Loft Space</div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+</body>
+</html>
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WebApp</title>
+    <link rel="icon" href="<%= require('./assets/favicon.ico') %>"" sizes="any"
+    />
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="<%=
+      require('./assets/icon.svg')
+    %>"
+    />
+    <link
+      rel="apple-touch-icon"
+      href="<%=
+      require('./assets/apple-touch-icon.png')
+    %>"
+    />
+  </head>
+  <body></body>
+</html> -->

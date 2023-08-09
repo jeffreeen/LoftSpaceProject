@@ -1,0 +1,31 @@
+/* stylelint-disable scss/dollar-variable-pattern*/
+$containerWidth: 1320px;
+$baseFontSize: 16px;
+/* stylelint-enable scss/dollar-variable-pattern*/
+
+//colors
+$grey: #f5f5f5;
+$white: #fff;
+$black: #292929;
+$red: #e01f3d;
+@import './components/media';
+
+//z-index
+
+$z-index-fixed-menu: 100;
+
+//normalize
+@import 'https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css';
+
+//setups
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab&family=Jost:wght@400;600&family=Montserrat:wght@300;500&family=Raleway:wght@300&display=swap');
+
+// font-family: 'Josefin Slab', serif;
+// font-family: 'Jost', sans-serif;
+// font-family: 'Montserrat', sans-serif;
+// font-family: 'Raleway', sans-serif;
+
+@import './components/layout';
+
+//blocks
+@import './components/welcome';
